@@ -89,40 +89,40 @@ First must be complete for score of  _Exceeds Expectations_
 ## Markdown
 
 ```
-Hey ___,
+Hey __YOUR_TIM_HERE__,
 
-General Feedback.
+Looks really good! I love that you took the time to think about mobile functionality. Your material-ui radio, edit, and submit buttons look great.
 
 ---
 | Functional Requirements | Complete? |
 | --- | :---: |
-| Multi page form with client side routing and navigation (next button) | no |
-| Data stored in Redux when navigating from page to page | no |
-| User is notified when trying to leave a blank score | no |
-| Review Component displays scores and comments from current redux state | no |
-| Submit button sends data to the server via Axios | no |
-| Confirmaion Page displays after data is POSTed to the server | no |
-| Button on Confirmation Page clears Redux and starts a new survey | no |
-| Views are broken down into components | no |
+| Multi page form with client side routing and navigation (next button) | yes |
+| Data stored in Redux when navigating from page to page | yes |
+| User is notified when trying to leave a blank score | yes |
+| Review Component displays scores and comments from current redux state | yes |
+| Submit button sends data to the server via Axios | yes |
+| Confirmation Page displays after data is POSTed to the server | yes |
+| Button on Confirmation Page clears Redux and starts a new survey | yes |
+| Views are broken down into components | yes |
 
 ---
 ### Notes:
 
-Notes on the above Functional Requirements.
+Your router has a typo in its console.log on line 9 ("req.boy" instead of "req.body"), hence that undefined we were seeing. Other than that, great logs, comments, and organization. You have a clean and readable style of coding. Your comments are concise and descriptive.
 
 ---
 | General Items | Complete? |
 | --- | :---: |
-| More than 15 git commits | no |
-| Commits are descriptive of the changes made or feature added | no |
+| More than 15 git commits | yes |
+| Commits are descriptive of the changes made or feature added | yes |
 | Readme file updated | no |
-| Appropriate amount of code comments | no |
-| Code is consistently formatted | no |
-| Server code organized with router & module files | no |
+| Appropriate amount of code comments | yes |
+| Code is consistently formatted | yes |
+| Server code organized with router & module files | yes |
 
 ---
 ### Notes:
 
-Notes on General Items
+You commit regularly and your commit messages are concise and descriptive. Also, way to use branches for stretch goals!
 
 ```
